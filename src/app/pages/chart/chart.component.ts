@@ -31,14 +31,14 @@ export class ChartComponent {
   //   'Confundido',
   // ];
   labels = [
-    'Felicidad',
-    'Tristeza',
-    'Enojo',
-    'Sorpersa',
-    'Disgusto',
-    'Calma',
-    'Confución',
-    'Miedo'
+    'MOE',
+    'Org 1',
+    'Mento',
+    'Admin os',
+    'UNAL',
+    'IT 270',
+    'CCIT',
+    'ONHido'
   ];
   tmpLabels =[]
   tmpDataSets = []
@@ -46,22 +46,22 @@ export class ChartComponent {
    data = { 
     labels: this.labels,
     datasets: [{
-      label: 'Octavo', 
+      label: 'Total', 
       backgroundColor: 'rgb(243, 83, 83)',
       borderColor: 'rgb(243, 83, 83)',
-      data: [13, 5, 10, 8, 13, 15, 12,6],
+      data: [13, 5, 17, 13, 13, 15, 12,15],
     },
     {
-      label: 'Noveno',
+      label: 'Aprobados',
       backgroundColor: 'rgb(170, 90, 206)',
       borderColor: 'rgb(170, 90, 206)',
-      data: [8, 9, 8, 15, 8, 15, 3,10],
+      data: [3, 9, 8, 4, 8, 3, 3,6],
     },
     {
-      label: 'Decimo',
+      label: 'No aprovados',
       backgroundColor: 'rgb(129, 197, 130)',
       borderColor: 'rgb(129, 197, 130)',
-      data: [9, 16, 20, 10, 5, 6, 5,5],
+      data: [9, 6, 5, 5, 5, 6, 9,4],
     }
 
   ]

@@ -486,27 +486,7 @@
 
   <hr>
 
-  <div class="container" *ngIf="hasIcon">
-    <div class="row" >
-      <div class="col-md-4" *ngFor="let item of icons">
-        <img width="100%" src={{item}} alt="">
-      </div>
-      
-    </div>
-    
-  </div>
-
-  
-  
-  
-  <h2 >{{graphicTitle}}</h2>
-  <p>{{graphicDescription}}</p>
-  <div>
-    <canvas id="myChart" id="myChart" width="400" height="400"></canvas>
-  </div>
-
-  
-  
+  <ngx-chart></ngx-chart>
 
   <input type="hidden" #selection>
 

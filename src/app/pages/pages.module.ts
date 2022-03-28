@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { PagesRoutingModule } from './pages-routing.module';
 import { PagesComponent } from './pages.component';
 import { CommonModule } from '@angular/common'
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -17,7 +18,8 @@ import { CommonModule } from '@angular/common'
     PagesRoutingModule,
     FormsModule,
     FontAwesomeModule,
-    ReactiveFormsModule    
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   declarations: [
     ChartComponent,
